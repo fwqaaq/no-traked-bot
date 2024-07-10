@@ -6,4 +6,4 @@ fork 仓库之后详细请看：<https://grammy.dev/hosting/vercel#hosting-verce
 
 完整示例请看：<https://t.me/fwqaaq_bot>
 
-也可以使用该网站，输入跟踪链接去除：<https://cloudflare-no-tracked.pages.dev/>
+也可以使用该网站，输入跟踪链接去除：<https://cloudflare-no-tracked.fwqaaq.workers.dev/>
