@@ -24,9 +24,12 @@ export function clear_tracked(this: BotType) {
         source = res.headers.get('location') ?? 'undefined'
       }
 
-      const search = new URL(source).search
-      source = source.replace(search, '') // remove search params
-      message = message.replace(text, source) // replace url
+      const sourceURL = new URL(source)
+      // handle xhs link
+      const xsecToken = sourceURL.searchParams.get('xsec_token')
+      sourceURL.search = xsecToken ? `?xsec_token=${xsecToken}` : ''
+
+      message = message.replace(text, sourceURL.toString()) // replace url
     }
     try {
       // 没有跟踪链接就直接返回

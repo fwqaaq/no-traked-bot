@@ -1,10 +1,5 @@
 lockfileVersion: '6.0'
 
-dependencies:
-  '@fwqaaq/translator':
-    specifier: ^1.0.1
-    version: 1.0.1
-
 devDependencies:
   '@types/node':
     specifier: ^20.9.0
@@ -17,10 +12,6 @@ devDependencies:
     version: 5.2.2
 
 packages:
-
-  /@fwqaaq/translator@1.0.1:
-    resolution: {integrity: sha512-2rWrJKRM3nLCu9AR1uf8UF1u5Ce25GuTh8Xw4vZgrlJK8vP5tWbrU2qTHwjQBHvMtwsnCK24nLrRZIg8ydBtSg==}
-    dev: false
 
   /@grammyjs/types@3.3.0:
     resolution: {integrity: sha512-18Qb12jXiIptqZAlboJMvFxNxydLskUjvE5PbU8ergKQlNIr8jRvYoHDm4t/x3qEfpf+FNhGw23lyZfgEE6e/g==}
